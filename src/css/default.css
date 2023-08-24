@@ -571,6 +571,10 @@ video {
   max-width: 640px;
 }
 
+.max-w-screen-md {
+  max-width: 768px;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -774,6 +778,14 @@ video {
 
   .md\:grid {
     display: grid;
+  }
+
+  .md\:w-96 {
+    width: 24rem;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
   }
 
   .md\:gap-4 {
